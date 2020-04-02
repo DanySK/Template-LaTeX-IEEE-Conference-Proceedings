@@ -1,13 +1,13 @@
 # LaTeX template repository with continuous integration  
 
-[![Build Status](https://travis-ci.org/DanySK/Template-LaTeX-CI.svg?branch=master)](https://travis-ci.org/DanySK/Template-LaTeX-CI)
+[![Build Status](https://travis-ci.org/DanySK/Template-IEEE-Conference-Proceedings.svg?branch=master)](https://travis-ci.org/DanySK/Template-IEEE-Conference-Proceedings)
 
-This repository is meant to be used as template for quickly starting LaTeX projects,
+This repository is meant to be used as template for quickly starting LaTeX IEEE conference papers,
 having them built on a continuous integrator, and having them quickly deployed in GitHub releases.
 
 The build system is based on Gradle, using [the latex-gradle plugin](https://github.com/DanySK/gradle-latex).
 
-The file being built is a LaTeX quick reference by [Mark Gates](http://www.icl.utk.edu/~mgates3/), kudos to him.
+The file being built is [the standard IEEE Computer Society Press proceedings style guide](https://www.ieee.org/conferences/publishing/templates.html).
 
 ## Using the project
 
@@ -15,9 +15,9 @@ The file being built is a LaTeX quick reference by [Mark Gates](http://www.icl.u
 2. Delete existing tex files and add yours
 3. Configure the build inside `build.gradle.kts` following instructions on [https://github.com/DanySK/gradle-latex](https://github.com/DanySK/gradle-latex)
 4. Test your build locally by `./gradlew buildLatex`
-5. Change the `official-repo` entry in `.travis.yml`
-6. Modify the `api_key` entry in the `deployment` section of `.travis.yml`, following [the instructions for deployment on GitHub releases provided by Travis](https://docs.travis-ci.com/user/deployment/releases/)
-7. Enable your repo on Travis CI
+5. Change the `_official-repo` entry in `.travis.yml`
+6. Enable your repo on Travis CI
+7. Generate a GitHub token and set it as privare variable in your Travis repository, following [the instructions for deployment on GitHub releases provided by Travis](https://docs.travis-ci.com/user/deployment-v2/providers/releases/)
 8. Just write, commit, and push, and in few minutes your files will be automagically available on GitHub.
 
 ## Contributing to the project
