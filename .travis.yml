@@ -1,4 +1,4 @@
-official-repo: &official-repo
+_official-repo: &official-repo
   DanySK/Template-IEEE-Conference-Proceedings
 language: minimal
 addons:
