@@ -3,7 +3,6 @@
 *.blg
 *.log
 *.out
-latex.pdf
 *.synctex.gz
 *.toc
 .idea/
@@ -16,3 +15,5 @@ _minted*/
 *.snm
 *.vrb
 build/
+conference_101719.pdf
+

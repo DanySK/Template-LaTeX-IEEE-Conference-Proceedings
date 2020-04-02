@@ -3,5 +3,7 @@ plugins {
 }
 
 latex {
-    "latex"()
+    "conference_101719"() {
+        bib = "IEEEexample.bib"
+    }
 }
