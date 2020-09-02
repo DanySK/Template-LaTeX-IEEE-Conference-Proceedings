@@ -1,3 +1,6 @@
+# Do not double-build branches and PRs from this repo
+if: repo != head_repo
+
 _official-repo: &official-repo
   DanySK/Template-IEEE-Conference-Proceedings
 language: minimal
