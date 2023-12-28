@@ -17,7 +17,7 @@ on:
 permissions: { }
 
 jobs:
-  Setup-Compile-Deploy:
+  success:
     runs-on: ubuntu-latest
     permissions:
       contents: write
