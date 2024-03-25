@@ -33,3 +33,5 @@ sed -i '/\\begin{document}/i \
 \\usepackage{myacronyms} \
 \\usepackage{mytodonotes} \
 \\usepackage{cleveref}' "$REPO_NAME.tex"
+# Ignore the produced paper
+echo "$REPO_NAME.pdf" >> .gitignore
