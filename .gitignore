@@ -1,3 +1,5 @@
+*.fls
+*.fdb*
 *.aux
 *.bbl
 *.blg
